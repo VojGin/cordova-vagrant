@@ -6,7 +6,7 @@ brew doctor # do what it says
 brew tap caskroom/cask
 brew install node
 brew upgrade node
-brew cask install caskroom/versions/java
+brew cask install homebrew/cask-versions/adoptopenjdk8
 brew install ant maven gradle
 brew cask install android-sdk android-ndk
 sdkmanager "platform-tools" "platforms;android-29"
