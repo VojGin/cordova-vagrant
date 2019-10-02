@@ -9,7 +9,7 @@ brew upgrade node
 brew cask install homebrew/cask-versions/adoptopenjdk8
 brew install ant maven gradle
 brew cask install android-sdk android-ndk
-sdkmanager "platform-tools" "platforms;android-29"
+sdkmanager "platform-tools" "platforms;android-28"
 sdkmanager --install "build-tools;29.0.2"
 echo "export ANDROID_HOME=/usr/local/share/android-sdk" >> ~/.bash_profile
 echo "export PATH=${PATH}:/usr/local/share/android-sdk/platform-tools:/usr/local/share/android-sdk/tools" >> ~/.bash_profile
